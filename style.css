@@ -17,7 +17,8 @@ a {
 
 .hero-second,
 .header-link,
-.action-text {
+.action-text,
+.footer-text {
     gap: 20px;
     color: #E5E7EB;
     font-size: 18px;
@@ -194,4 +195,12 @@ a {
 .right .sign-up {
     border-style: solid;
     border-color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 32px 0;
 }
