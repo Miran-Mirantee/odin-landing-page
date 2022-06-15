@@ -142,6 +142,11 @@ a {
     justify-content: center;
     padding: 112px 0;
     gap: 8px;
+    background-image: url("image/corgi2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* height: 635px; */
     background-color: #E5E7EB;
 }
 
@@ -152,7 +157,8 @@ a {
 .quote {
     font-size: 36px;
     font-style: italic;
-    color: #1F2937;
+    color: rgb(163, 226, 255);
+    text-shadow: 2px 2px #1F2937;
 }
 
 .quoter {
@@ -160,7 +166,8 @@ a {
     justify-content: flex-end;
     font-size: 30px;
     font-weight: 800;
-    color: #1F2937;
+    color: rgb(93, 168, 238);
+    text-shadow: 2px 2px #1F2937;
 }
 
 .section3 {
